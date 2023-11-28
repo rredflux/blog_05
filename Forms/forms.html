@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Forms Demo</title>
+
+  </head>
+
+  <body>
+
+    <h1>Forms Demo</h1>
+
+        <form action="fuckyou.html">
+
+            <label for="username">Enter a Username:</label>
+            <input id="username" type="text" placeholder="username">
+            <br>
+            <label for="password">Enter a Password:</label>
+            <input id="password" type="password" placeholder="password">
+            <br>
+            <label for="Color">Select a Color</label>
+            <input id="Color" type="color">
+            <br>
+            <label for="phonenumber">Enter Phonenumber:</label>
+            <input id="phonenumber"type="number" placeholder="phonenumber">
+            <br>
+            <button type="button">Submit</button>
+            <button type="submit">Insult the Developer</button>
+
+        </form>
+        <hr>
+        <form action="https://www.google.com/search">
+              <input type="text" name="q">
+              <button>Search Google</button>
+        </form>
+
+        <form action="https://www.reddit.com/search">
+              <input type="text" name="q">
+              <button>Search Reddit</button>
+        </form>
+        <hr>
+
+        <form action="index.html">
+            <input type="checkbox" name="agree_tos" id="agree" checked>
+            <label for="agree">Checkbox TEST</label>
+        </form>
+
+        <hr>
+
+        <form action="index.html">
+            <input type="checkbox" name="agree_tos" id="agree">
+            <label for="agree">Checkbox TEST(Unchecked)</label>
+        </form>
+
+        <hr>
+
+        <form action="/123">
+
+        <label for="Selection1">RadioValue1</label>
+        <input type="radio" name="Selection" id="Selection1" value="Selection1">
+
+        <label for="Selection2">RadioValue2</label>
+        <input type="radio" name="Selection" id="Selection2" value="Selection2">
+
+        <label for="Selection3">RadioValue3</label>
+        <input type="radio" name="Selection" id="Selection3" value="Selection3">
+
+
+        <button>Submit</button>
+
+      </form>
+
+        <hr>
+
+        <label for="select"> Select Element </label>
+        <select name="select" id="select">
+            <option value="selectex">Select a Goddamn Option!</option>
+            <option value="selectex1">selectex1</option>
+            <option value="selectex2">selectex2</option>
+            <option value="selectex3">selectex3</option>
+            <option value="Enough Fuck it"> Fuck it, enough examples </option>
+        </select>
+        <hr>
+        <label for="fuckery"> Level of Fucks given: </label>
+        <input type="range" name="fuckery" id="fuckery" value="5" min="1" max="10">
+        <hr>
+
+        <div>
+        <label for="comments">Any fucking comments ?!</label>
+        <br>
+        <textarea name="comments" id="comments"rows="10" cols="20" placeholder="Jesus! This Developer is Rude, continue..."></textarea>
+        <button>Submit</button>
+        </div>
+
+        <hr>
+        <form action="/123">
+        <label for="First" placeholder="Firstname">Enter First Name</label>
+        <input type="text" name="first" id="first" required>
+        <label for="username1">username test</label>
+        <input type="text" name="username1" id="username1" required minlength="4" maxlength="15">
+
+        <label for="URL">Enter URL:</label>
+        <input type="url" name="URL" id="URL" required>
+
+        <label for="Email">Enter Email</label>
+        <input type="email" name="Email" id="Email" required>
+
+        <button>Submit</button>
+        </form>
+
+  </body>
+
+</html>
